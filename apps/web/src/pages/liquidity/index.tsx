@@ -86,6 +86,7 @@ export default function PoolListPage() {
   const { positions, loading: v3Loading } = useV3Positions(account)
 
   const { data: v2Pairs, loading: v2Loading } = useV2PairsByAccount(account)
+  console.log('data', v2Pairs)
 
   const stablePairs = useLPTokensWithBalanceByAccount(account)
 

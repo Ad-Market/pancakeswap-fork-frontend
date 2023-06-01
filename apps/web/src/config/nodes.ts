@@ -17,5 +17,5 @@ export const PUBLIC_NODES = {
   ].filter(Boolean),
   [ChainId.BSC_TESTNET]: 'https://data-seed-prebsc-1-s1.binance.org:8545',
   [ChainId.ETHEREUM]: getNodeRealUrlV2(ChainId.ETHEREUM, process.env.NEXT_PUBLIC_NODE_REAL_API_ETH),
-  [ChainId.GOERLI]: getNodeRealUrlV2(ChainId.GOERLI, process.env.NEXT_PUBLIC_NODE_REAL_API_GOERLI),
+  [ChainId.GOERLI]: 'https://goerli.blockpi.network/v1/rpc/public',
 } satisfies Record<ChainId, string | string[]>

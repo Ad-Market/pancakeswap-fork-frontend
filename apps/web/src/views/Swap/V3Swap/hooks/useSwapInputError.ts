@@ -27,9 +27,9 @@ function involvesAddress(trade: SmartRouterTrade<TradeType>, checksummedAddress:
 
 // TODO: update
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f', // v2 factory
-  '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-  '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D', // v2 router 02
+  '0xd848A2128F4f36AF73d4741Dc7a31C8D00f9bd39', // v2 factory
+  '0xB47A4926fc83b2BA10ec1A163465637A1412A76C', // v2 router 01
+  '0xDdA18D7aB3189bE91BdBb1982e433A735270CA63', // v2 router 02
 ]
 
 export function useSwapInputError(

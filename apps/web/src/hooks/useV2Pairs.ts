@@ -29,6 +29,7 @@ export default function useV2PairsByAccount(account: string) {
       ),
     [tokenPairsWithLiquidityTokens, v2PairsBalances],
   )
+  console.log('liquidityTokensWithBalances', liquidityTokensWithBalances)
 
   const v2Pairs = useV2Pairs(liquidityTokensWithBalances.map(({ tokens }) => tokens))
 

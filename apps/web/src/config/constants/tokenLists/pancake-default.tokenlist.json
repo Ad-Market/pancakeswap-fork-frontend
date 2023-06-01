@@ -233,6 +233,14 @@
       "chainId": 1,
       "decimals": 8,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
+    },
+    {
+      "name": "Test Token",
+      "address": "0xD866c7Cd022333f669c2fa893c2E23Eb5c39E4d4",
+      "symbol": "TEST",
+      "decimals": 18,
+      "chainId": 5,
+      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
     }
   ]
 }
